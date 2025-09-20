@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Mi Portafolio</h1>
+        <button class="menu-toggle" id="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </button>
+        <nav>
+            <ul id="nav-menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#conocimientos">Conocimientos</a></li>
+                <li><a href="#redes">Redes</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <button id="theme-toggle">
+            <svg class="sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24px" height="24px"><path d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zM12 9c1.65 0 3 1.35 3 3s-1.35 3-3 3-3-1.35-3-3 1.35-3 3-3zM12 2c.55 0 1 .45 1 1v2c0 .55-.45 1-1 1s-1-.45-1-1V3c0-.55.45-1 1-1zM12 18c.55 0 1 .45 1 1v2c0 .55-.45 1-1 1s-1-.45-1-1v-2c0-.55.45-1 1-1zM4.22 4.22c.39.39 1.02.39 1.41 0s.39-1.02 0-1.41C5.25 2.43 4.75 2.43 4.22 2.81c-.39.39-.39 1.02 0 1.41zM18.36 18.36c.39.39 1.02.39 1.41 0s.39-1.02 0-1.41c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41zM2 12c0-.55.45-1 1-1h2c.55 0 1 .45 1 1s-.45 1-1 1H3c-.55 0-1-.45-1-1zM18 12c0-.55.45-1 1-1h2c.55 0 1 .45 1 1s-.45 1-1 1h-2c-.55 0-1-.45-1-1zM5.64 18.36c-.39.39-.39 1.02 0 1.41.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41-.39-.39-1.02-.39-1.41 0zM17.66 5.64c-.39.39-.39 1.02 0 1.41.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41-.39-.39-1.02-.39-1.41 0z"/></svg>
+            <svg class="moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24px" height="24px"><path d="M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9 9-4.03 9-9c0-.46-.04-.92-.1-1.36-.28.1-.58.16-.89.16-3.31 0-6-2.69-6-6 0-.31.06-.61.16-.89C12.92 3.04 12.46 3 12 3z"/></svg>
+        </button>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>¡Hola! Soy <span class="highlight">Jesús</span></h1>
+                    <h2>Desarrollador especializado en Microsoft Dynamics 365</h2>
+                    <p>Transformo procesos de negocio en soluciones tecnológicas robustas utilizando C#, JavaScript y SQL</p>
+                    <div class="hero-buttons">
+                        <a href="#sobre-mi" class="btn btn-primary">Conocer más</a>
+                        <a href="#contacto" class="btn btn-secondary">Contactar</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="Perfil.jpeg" alt="Jesús - Desarrollador" class="hero-profile-pic">
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre-mi">
+            <h2>Sobre mí</h2>
+            <div class="sobre-mi-container">
+                <div class="profile-pic-wrapper">
+                    <img src="Perfil.jpeg" alt="Mi foto de perfil" class="profile-pic">
+                </div>
+                <div class="sobre-mi-texto">
+                    <p>Desarrollador especializado en el ecosistema de Microsoft, con experiencia consolidada en la personalización y extensión de módulos de Dynamics 365. Mi rol consiste en fusionar un profundo conocimiento de los procesos de negocio con una sólida competencia técnica en C#, JavaScript y SQL para construir soluciones robustas que impulsan el valor empresarial.</p>
+                    <p>Mi participación abarca todo el ciclo de vida del producto, desde el relevamiento de requisitos y el análisis funcional de procesos hasta la implementación de metodologías de trabajo efectivas junto al cliente. Para asegurar la máxima calidad e integridad de los datos en cada integración, utilizo herramientas como Postman para realizar pruebas exhaustivas.</p>
+                </div>
+            </div>
+            <div class="tech-icons">
+                <i class="fa-brands fa-js-square icon-js" title="JavaScript"></i>
+                <i class="fa-solid fa-database icon-sql" title="SQL"></i>
+                <i class="fa-solid fa-rocket icon-postman" title="Postman"></i>
+            </div>
+        </section>
+
+        <section id="conocimientos">
+            <h2>Conocimientos y Habilidades</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Lenguajes de Programación</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fab fa-microsoft" title="C#"></i>
+                            <span>C#</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js-square" title="JavaScript"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database" title="SQL"></i>
+                            <span>SQL</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Tecnologías Microsoft</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fab fa-microsoft" title="Dynamics 365"></i>
+                            <span>Dynamics 365</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-cloud" title="Azure"></i>
+                            <span>Azure</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-cogs" title="Power Platform"></i>
+                            <span>Power Platform</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Herramientas</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fas fa-rocket" title="Postman"></i>
+                            <span>Postman</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-git-alt" title="Git"></i>
+                            <span>Git</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code-branch" title="DevOps"></i>
+                            <span>DevOps</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="certificaciones">
+            <h2>Certificaciones</h2>
+            <div class="certifications-container">
+                <div class="certification-card">
+                    <div class="certification-header">
+                        <i class="fab fa-microsoft"></i>
+                        <h3>Microsoft Learn</h3>
+                    </div>
+                    <div class="certification-content">
+                        <h4>Credencial Microsoft Dynamics 365</h4>
+                        <p>Certificación oficial de Microsoft en el ecosistema Dynamics 365, validando competencias en desarrollo y personalización de soluciones empresariales.</p>
+                        <div class="certification-actions">
+                            <a href="Credencial - jesusfarias-7557 _ Microsoft Learn.pdf" target="_blank" class="btn-cert btn-view">
+                                <i class="fas fa-eye"></i>
+                                Ver Credencial
+                            </a>
+                            <a href="Credencial - jesusfarias-7557 _ Microsoft Learn.pdf" download class="btn-cert btn-download">
+                                <i class="fas fa-download"></i>
+                                Descargar PDF
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="proyectos">
+            <h2>Proyectos en los que participe</h2>
+            <div class="projects-container">
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Chat en Vivo con Node.js</h3>
+                        <p>Sistema de chat en tiempo real desarrollado con Node.js y WebSockets, permitiendo comunicación instantánea entre usuarios con una interfaz moderna y responsiva.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">WebSockets</span>
+                            <span class="tech-tag">Real-time</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Integración Bancaria con Data Factory</h3>
+                        <p>Implementación de un flujo ETL completo que automatiza la extracción de archivos desde servidores SFTP, procesamiento con SQL y migración a Dynamics 365.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Azure Data Factory</span>
+                            <span class="tech-tag">SQL</span>
+                            <span class="tech-tag">SFTP</span>
+                            <span class="tech-tag">Dynamics 365</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Sistema Universitario en Dynamics 365</h3>
+                        <p>Desarrollo de una solución integral en el módulo de ventas de Dynamics 365, consumiendo APIs universitarias para gestionar registros de estudiantes y cursadas.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Dynamics 365</span>
+                            <span class="tech-tag">API Integration</span>
+                            <span class="tech-tag">Postman</span>
+                            <span class="tech-tag">SQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-cloud-upload-alt"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Migración Dynamics On-Premises a Online</h3>
+                        <p>Migración completa del módulo de ventas de un banco desde una instancia on-premises a Dynamics 365 Online, asegurando continuidad del negocio y optimización de procesos.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Dynamics 365</span>
+                            <span class="tech-tag">Cloud Migration</span>
+                            <span class="tech-tag">Banking</span>
+                            <span class="tech-tag">Sales Module</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="redes">
+            <h2>Redes Sociales</h2>
+            <div class="social-container">
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/jesus-farias-dev" target="_blank" class="social-link linkedin">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://github.com/jesusfarias" target="_blank" class="social-link github">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="mailto:jesus.farias@gmail.com" class="social-link email">
+                        <i class="fas fa-envelope"></i>
+                        <span>Email</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contacto">
+        <div class="footer-content">
+            <div class="footer-contact">
+                <h2>Contacto</h2>
+                <div class="footer-contact-container">
+                    <div class="footer-contact-form">
+                        <form id="contact-form" action="mailto:jesus.fg2630@gmail.com" method="post" enctype="text/plain">
+                            <div class="footer-form-group">
+                                <label for="nombre">Nombre</label>
+                                <input type="text" id="nombre" name="nombre" required>
+                            </div>
+                            <div class="footer-form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="footer-form-group">
+                                <label for="mensaje">Mensaje</label>
+                                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                            </div>
+                            <button type="submit" class="footer-btn">Enviar Mensaje</button>
+                        </form>
+                    </div>
+                    <div class="footer-contact-info">
+                        <h3>Información de Contacto</h3>
+                        <div class="footer-contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>jesus.fg2630@gmail.com</span>
+                        </div>
+                        <div class="footer-contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>11-62484584</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Jesús Farias. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
