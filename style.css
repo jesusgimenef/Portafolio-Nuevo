@@ -487,16 +487,28 @@ section#sobre-mi {
     text-align: center;
 }
 
+.sobre-mi-texto p {
+    font-size: 1.3rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+}
+
 @media (min-width: 768px) {
     .sobre-mi-container {
-        flex-direction: row;
-        text-align: left;
+        flex-direction: column;
+        text-align: center;
         gap: 3rem;
         align-items: center;
     }
 
     .sobre-mi-texto {
-        max-width: 40rem;
+        max-width: 50rem;
+    }
+    
+    .sobre-mi-texto p {
+        font-size: 1.4rem;
+        line-height: 1.8;
+        margin-bottom: 1.5rem;
     }
 }
 
